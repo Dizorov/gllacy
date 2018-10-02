@@ -9,27 +9,27 @@
 <body>
 
 	<header class="page-header">
-		<nav>
-			<img src="svg/logo.svg">
-			<ul class="main-navigation">
-				<li>
+		<nav class="main-navigation">
+			<img class="main-navigation__logo" src="svg/logo.svg" alt="logo">
+			<ul class="">
+				<li class="main-navigation__item">
 					<a href="#" title="Каталог">Каталог</a>
 				</li>
-				<li>
+				<li class="main-navigation__item">
 					<a href="#" title="Доставка и оплата">Доставка и оплата</a>
 				</li>
-				<li>
+				<li class="main-navigation__item">
 					<a href="#" title="О Компании">О Компании</a>
 				</li>
 			</ul>
 			<ul class="user-navigation">
-				<li>
+				<li class="user-navigation__item">
 					<a href="#">Поиск</a>
 				</li>
-				<li>
+				<li class="user-navigation__item">
 					<a href="#">Вход</a>
 				</li>
-				<li>
+				<li class="user-navigation__item">
 					<a href="#">Корзина</a>
 				</li>
 			</ul>
@@ -37,77 +37,111 @@
 	</header>
 
 	<main>
-		<h2>
-			Крем-брюле и пломбир
-			с малиновым джемом
-		</h2>
+		<div class="background-slider">
+			<h2 class="background-slide__header">
+				Крем-брюле и пломбир
+				с малиновым джемом
+			</h2>
+			<!-- <h2 class="background-slide__header">
+				Шоколадный пломбир
+				и лимонный сорбет 
+			</h2>
+			<h2 class="background-slide__header">
+				Пломбир с помадкой
+				и клубничный щербет
+			</h2> -->
+		</div>
 
-		<section>
-			<h3>
-				Малинка даром!
-			</h3>
-			<p>
-				При покупке 2 кг любого фруктового мороженого, добавим 
-				в ваш заказ банку малинового варенья бесплатно.
-			</p>
- 
- 			<h3>
- 				Шоколадки даром!
- 			</h3>
- 			<p>
- 				При покупке 2 кг пломбира, добавим в ваш заказ упаковку 
- 				вкуснейшей шоколадной присыпки совершенно бесплатно.
- 			</p>
+		<section class="banners">
+			<h2 class="visually-hidden">
+				Баннеры
+			</h2>
+			<div class="banners-item">
+				<h3 class="banners-item__header">
+					Малинка даром!
+				</h3>
+				<p class="banners-item__message">
+					При покупке 2 кг любого фруктового мороженого, добавим 
+					в ваш заказ банку малинового варенья бесплатно.
+				</p>
+			</div>
+ 			<div class="banners__item">
+ 				<h3 class="banners-item__header">
+ 					Шоколадки даром!
+ 				</h3>
+ 				<p class="banners-item__message">
+ 					При покупке 2 кг пломбира, добавим в ваш заказ упаковку 
+ 					вкуснейшей шоколадной присыпки совершенно бесплатно.
+ 				</p>
+ 			</div>
 		</section>
 
-		<section>
+		<section class="icecream-hits">
+			<h2 class="visually-hidden">
+				Наши хиты
+			</h2>
 			<ul>
-				<li>
-					<p>
+				<li class="icecream-hits__item">
+					<p class="icecream-hits__price">
+						310р<span>/кг</span>
+					</p>
+					<p class="icecream-hits__feature">
 						Сливочное с апельсиновым джемом и цитрусовой стружкой
 					</p>
 				</li>
-				<li>
-					<p>
+				<li class="icecream-hits__item">
+					<p class="icecream-hits__price">
+						380р<span>/кг</span>
+					</p>
+					<p class="icecream-hits__feature">
 						Сливочно-кофейное с кусочками шоколада
 					</p>
 				</li>
-				<li>
-					<p>
+				<li class="icecream-hits__item">
+					<p class="icecream-hits__price">
+						355р<span>/кг</span>
+					</p>
+					<p class="icecream-hits__feature">
 						Сливочно-клубничное с присыпкой из белого шоколада
 					</p>
 				</li>
-				<li>
-					<p>
+				<li class="icecream-hits__item">
+					<p class="icecream-hits__price">
+						415р<span>/кг</span>
+					</p>
+					<p class="icecream-hits__feature">
 						Сливочное крем-брюле с карамельной подливкой
 					</p>
 				</li>
 			</ul>
 		</section>
 
-		<section>
-			<p>
+		<section class="conception">
+			<h2 class="visually-hidden">
+				Концепция
+			</h2>
+			<p class="conception__header">
 				Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес
 			</p>
 
-			<ul>
-				<li>
-					<p>
+			<ul class="conception__list">
+				<li class="conception__item">
+					<p class="conteption__message">
 						Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
 					</p>
 				</li>
-				<li>
-					<p>
+				<li class="conception__item">
+					<p class="conteption__message">
 						Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. 
 					</p>
 				</li>
-				<li>
-					<p>
-						Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
+				<li class="conception__item">
+					<p class="conteption__message">
+						Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
 					</p>
 				</li>
-				<li>
-					<p>
+				<li class="conception__item">
+					<p class="conteption__message">
 						Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
 					</p>
 				</li>
@@ -115,72 +149,89 @@
 
 		</section>
 
-		<article>
-			<h3>	
+		<article class="news">
+			<h2 class="visually-hidden">
+				Новости
+			</h2>
+			<h3 class="news__header">	
 				Новое в нашем блоге
 			</h3>
-			<p>
+			<p class="news__message">
 				<a href="">10 способов сервировки фруктовых щербетов к столу</a>
 			</p>
 		</article>
-		<article>
-			<p>
+		<article class="mailing">
+			<h2 class="visually-hidden">
+				Рассылка
+			</h2>
+			<p class="mailing__message">
 				Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
 			</p>
 		</article>
-		
 	</main>
 
-	<section>
-		<p>
-			Адрес главного офиса<br>
-			и офлайн-магазина:
-		</p>
-
-		<p>ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
-
-		<p>Для заказов по телефону:</p>
-		8 812 450-25-25
-		(с 10 до 20 ежедневно)
-
+	<section class="map">
+		<h2 class="visually-hidden">
+			Как добраться и контакты
+		</h2>
+		<div class="contacts-block">
+			<p>
+				Адрес главного офиса<br>
+				и офлайн-магазина:
+			</p>
+			<p>
+				ул. Большая Конюшенная 19/8, Санкт-Петербург
+			</p>
+			<p>
+				Для заказов по телефону:
+			</p>
+			<p>
+				8 812 450-25-25
+			</p>
+			<p>
+				(с 10 до 20 ежедневно)
+			</p>
+		</div>
 	</section>
 
-	<footer>
-		<nav>
-			<ul>
+	<footer class="page-footer">
+		<div class="page-footer__social">
+			<ul class="page-footer__social-links">
 				<li>
-					<a href="#">Twitter</a>
+					<a class="social-links__link" href="#">Twitter</a>
 				</li>
 				<li>
-					<a href="#">Instagram</a>
+					<a class="social-links__link" href="#">Instagram</a>
 				</li>
 				<li>
-					<a href="#">Facebook</a>
+					<a class="social-links__link" href="#">Facebook</a>
 				</li>
 				<li>
-					<a href="#">VK</a>
-				</li>
-			</ul>
-		</nav>
-		<nav>
-			<ul>
-				<li>
-					<a href="#nowhere">Для поставщиков</a>
-				</li>
-				<li>
-					<a href="#nowhere">О производстве</a>
-				</li>
-				<li>
-					<a href="#nowhere">Наши документы</a>
-				</li>
-				<li>
-					<a href="#nowhere">Экологические стандарты</a>
+					<a class="social-links__link" href="#">VK</a>
 				</li>
 			</ul>
-		</nav>
-		<p>
-			Сделано в <a href="#">htmlacademy.ru</a> &copy; 2017
-		</p>
+		</div>
+		<div class="page-footer__menu">
+			<ul class="page-footer__menu-links">
+				<li>
+					<a class="menu-links__link" href="#nowhere">Для поставщиков</a>
+				</li>
+				<li>
+					<a class="menu-links__link" href="#nowhere">О производстве</a>
+				</li>
+				<li>
+					<a class="menu-links__link" href="#nowhere">Наши документы</a>
+				</li>
+				<li>
+					<a class="menu-links__link" href="#nowhere">Экологические стандарты</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page-footer__made-in">
+			<p>
+				Сделано в <a class="made-in__link" href="#">htmlacademy.ru</a> &copy; 2017
+			</p>
+		</div>
 	</footer>
 
 </body>
