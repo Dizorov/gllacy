@@ -1,14 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
+
 	background-image: url("../img/ice_cream_bg_1.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
-
-	max-width: 1250px;
-	margin: 0 auto;
-	padding: 0 25px;
 	background-color: #849d8f;
+
+	width: 1200px;
+	margin: 0;
+	padding: 0 25px;
+
 }
 
 .visually-hidden {
@@ -32,26 +34,30 @@ body {
 
 .background-slider {
 	padding-top: 300px;
-	padding-bottom: 140px;
+	padding-bottom: 90px;
 }
 
 .background-slide__header {
 	margin-top: 0;
+
 	text-align: center;
 	font-size: 60px;
 	line-height: 60.35px;
 }
 
 .banners {
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 
-	width: 1200px;
+	width: 1150px;
 	margin: 0;
 	padding: 0;
 }
 
 .banners__item {
+	box-sizing: border-box;
+
 	width: 560px;
 	padding: 0 20px;
 }
@@ -71,10 +77,77 @@ body {
 
 	font-size: 35px;
 	line-height: 41px;
+	font-weight: bold;
 }
 
 .banners__message {
 	font-size: 18px;
 	line-height: 22px;
+
+	margin: 0;
+	padding: 0;
 	margin-bottom: 115px;
+}
+
+.icecream-hits {
+	width: 1200px;
+}
+
+.icecream-hits__list {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+
+	list-style: none;
+}
+
+.icecream-hits__item {
+	width: 270px;
+}
+
+.icecream-hits__image {
+	border-radius: 50%;
+}
+
+.icecream-hits__price {
+	padding: 0;
+	margin: 0;
+	margin-top: -65px;
+
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 1px 1px 3px rgba(49, 50, 53,0.5);
+}
+
+.icecream-hits__price--smaller {
+	font-size: 30px;
+}
+
+.icecream-hits__feature {
+	padding: 0;
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	/*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+}
+
+.conception {
+	width: 1150px;
+	margin: 0;
+	padding: 0;
+
+	background-image: url("../img/vaflya_bg.jpg");
+	background-repeat: repeat-x;
+
+	border-radius: 10px;
+
+	color: #323232;
 }
