@@ -1,0 +1,80 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	background-image: url("../img/ice_cream_bg_1.png");
+	background-repeat: no-repeat;
+	background-position: center 0;
+
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 25px;
+	background-color: #849d8f;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+}
+
+.page-header {
+	display: flex;
+
+	width: 1200px;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.background-slider {
+	padding-top: 300px;
+	padding-bottom: 140px;
+}
+
+.background-slide__header {
+	margin-top: 0;
+	text-align: center;
+	font-size: 60px;
+	line-height: 60.35px;
+}
+
+.banners {
+	display: flex;
+	justify-content: space-between;
+
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+
+.banners__item {
+	width: 560px;
+	padding: 0 20px;
+}
+
+.banners__item--raspberry_bg {
+	background-image: url("../img/malina_bg.png");
+	background-repeat: no-repeat;
+}
+
+.banners__item--choco_bg {
+	background-image: url("../img/choco_bg.png");
+	background-repeat: no-repeat;
+}
+
+.banners__header {
+	margin: 15px 0;
+
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.banners__message {
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 115px;
+}
