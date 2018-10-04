@@ -1,4 +1,10 @@
 body {
+	box-sizing: border-box;
+
+	width: 1250px;
+	margin: 0 auto;
+	padding: 0 25px;	
+
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 
@@ -6,11 +12,6 @@ body {
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-color: #849d8f;
-
-	width: 1200px;
-	margin: 0;
-	padding: 0 25px;
-
 }
 
 .visually-hidden {
@@ -224,7 +225,7 @@ body {
 	margin: 0;
 	padding: 0;
 	padding-top: 40px;
-
+	padding-bottom: 30px;
 }
 
 .news {
@@ -242,6 +243,7 @@ body {
 
 .news__header {
 	margin: 0;
+
 	font-size: 16px;
 	line-height: 22px;
 }
@@ -258,11 +260,104 @@ body {
 	font-size: 24px;
 	line-height: 30px;
 	text-decoration: none;
+
 	box-shadow: inset 0 -2px 0 0 #323232;
 }
 
 .mailing {
+	box-sizing: border-box;
 	width: 560px;
+	padding: 5px;
+
+	background-image: repeating-linear-gradient(-45deg,  white 6px, white 12px, #92cdff 12px, #92cdff 18px, white 18px, white 24px, #fe9e90 24px, #fe9e90 30px);
 
 	border-radius: 10px;
+}
+
+.mailing__container {
+	box-sizing: border-box;
+	width: 550px;
+	padding: 0 20px;
+	
+
+	border-radius: 10px;
+
+	background-color: #f8f7f4;
+}
+
+.mailing__message {
+	margin: 0;
+	padding: 30px 0;
+
+	font-size: 16px;
+	line-height: 22px;
+	color: #5a5a5a;
+}
+
+.mailing__email {
+	box-sizing: border-box;
+	width: 370px;
+	border: 1px solid #d3d3d2;
+	margin-top: 10px;
+	margin-bottom: 33px;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.map {
+	position: relative;
+	width: 1250px;
+	height: 430px;
+	margin-left: -25px;
+
+	background-image: url("../img/map_default.jpg");
+	background-repeat: no-repeat;
+}
+
+.contacts-block {
+	position: absolute;
+	top: 65px;
+	right: 80px;
+	width: 300px;
+	padding: 25px;
+
+	border-radius: 10px;
+
+	background-color: #ffffff;
+
+	color: #323232;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.contacts-block__address-title {
+	margin: 0;
+}
+
+.contacts-block__address {
+	margin: 0;
+
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.contacts-block__phone-title {
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.contacts-block__phone {
+	margin: 0;
+	margin-bottom: 5px;
+
+	font-family: "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.contacts-block__hours {
+	font-family: "Times New Roman", serif;
+	margin: 0;
 }

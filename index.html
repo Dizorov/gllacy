@@ -174,9 +174,16 @@
 				<h2 class="visually-hidden">
 					Рассылка
 				</h2>
-				<p class="mailing__message">
-					Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
-				</p>
+
+				<div class="mailing__container">
+					<p class="mailing__message">
+						Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
+					</p>
+					<form action="#" method="POST">
+						<input class="mailing__email" type="email" placeholder="Электронная почта">
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
 			</article>
 		</div>
 	</main>
@@ -186,22 +193,23 @@
 			Как добраться и контакты
 		</h2>
 		<div class="contacts-block">
-			<p>
+			<p class="contacts-block__address-title">
 				Адрес главного офиса<br>
 				и офлайн-магазина:
 			</p>
-			<p>
+			<p class="contacts-block__address">
 				ул. Большая Конюшенная 19/8, Санкт-Петербург
 			</p>
-			<p>
+			<p class="contacts-block__phone-title">
 				Для заказов по телефону:
 			</p>
-			<p>
+			<p class="contacts-block__phone">
 				8 812 450-25-25
 			</p>
-			<p>
+			<p class="contacts-block__hours">
 				(с 10 до 20 ежедневно)
 			</p>
+			<button>Форма обратной связи</button>
 		</div>
 	</section>
 
