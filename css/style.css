@@ -95,10 +95,12 @@ body {
 
 .icecream-hits__list {
 	box-sizing: border-box;
+
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 
+	width: 1150px;
 	margin: 0;
 	padding: 0;
 	padding-top: 40px;
@@ -140,9 +142,10 @@ body {
 }
 
 .conception {
+	box-sizing: border-box;
 	width: 1150px;
 	margin: 0;
-	padding: 0;
+	padding: 25px 0px;
 
 	background-image: url("../img/vaflya_bg.jpg");
 	background-repeat: repeat-x;
@@ -150,4 +153,113 @@ body {
 	border-radius: 10px;
 
 	color: #323232;
+}
+
+.conception__header {
+	margin: 0;
+	padding-left: 20px;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.conception__list {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.conception__message {
+	position: relative;
+	box-sizing: border-box;
+	width: 550px;
+	margin: 0;
+	padding-top: 20px;
+	padding-left: 75px;
+
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.conception__message-icon::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+
+	background-repeat: no-repeat;
+}
+
+.conception__message-icon_ice-cream::before {
+	background-image: url("../svg/ice-cream.svg");
+
+}
+
+.conception__message-icon_cow::before {
+	background-image: url("../svg/cow.svg");
+}
+
+.conception__message-icon_eco::before {
+	background-image: url("../svg/eco.svg");
+}
+
+.conception__message-icon_thermometer::before {
+	background-image: url("../svg/thermometer.svg");
+}
+
+.news-block {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+
+	width: 1150px;
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+
+}
+
+.news {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 25px 20px;
+	width: 560px;
+
+	border-radius: 10px;
+
+	color: #323232;
+
+	background-image: url("../img/klubnichny_bg.jpg");
+}
+
+.news__header {
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.news__message {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.news__link {
+	color: #323232;
+	font-family: "Times New Roman", serif;
+	font-size: 24px;
+	line-height: 30px;
+	text-decoration: none;
+	box-shadow: inset 0 -2px 0 0 #323232;
+}
+
+.mailing {
+	width: 560px;
+
+	border-radius: 10px;
 }
