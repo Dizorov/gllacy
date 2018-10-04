@@ -23,14 +23,62 @@ body {
   	margin: -1px;
 }
 
-.page-header {
+.header-navigation {
 	display: flex;
+	justify-content: space-between;
 
-	width: 1200px;
+	width: 1150px;
+	padding-top: 10px;
 }
 
 .main-navigation {
 	display: flex;
+	margin: 0;
+
+	list-style: none;
+}
+
+.main-navigation__item,
+.user-navigation__item {
+	display: flex;
+}
+
+.main-navigation__link {
+	padding: 20px 15px;
+	vertical-align: middle;
+
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+}
+
+.user-navigation {
+	display: flex;
+	margin: 0;
+
+	list-style: none;
+}
+
+.user-navigation__item {
+	display: flex;
+}
+
+.user-navigation__link {
+	box-sizing: border-box;
+	margin: 10px 5px;
+	padding: 8px;
+	height: 32px;
+	vertical-align: center;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	font-weight: 700;
 }
 
 .background-slider {
