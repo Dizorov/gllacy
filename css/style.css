@@ -590,7 +590,7 @@ body {
 .page-footer__menu-links {
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: space-between;
+	justify-content: space-between;
 	width: 350px;
 
 	margin: 0;
