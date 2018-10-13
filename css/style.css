@@ -807,9 +807,9 @@ body {
 	text-decoration: none;
 }
 
-.modal-write-us_overlay {
+.modal-write-us__container_overlay {
+	display: none;
 	position: fixed;
-	display: block;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -904,4 +904,15 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 	padding: 11px 20px;
+}
+
+.modal-write-us_is-showed {
+	display: block;
+	animation: show;
+	animation-duration: .4s;
+}
+
+@keyframes show {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
