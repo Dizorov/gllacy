@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
-<body>
+<body class="body__theme_first">
 
 	<header class="page-header">
 		<nav class="header-navigation">
@@ -81,24 +81,24 @@
 
 	<main>
 		<div class="background-slider">
-			<h2 class="background-slide__header">
+			<h2 class="background-slide__header background-slide__header--current">
 				Крем-брюле и пломбир<br>
 				с малиновым джемом
 			</h2>
-			<!-- <h2 class="background-slide__header">
-				Шоколадный пломбир
+			<h2 class="background-slide__header">
+				Шоколадный пломбир<br>
 				и лимонный сорбет 
 			</h2>
 			<h2 class="background-slide__header">
-				Пломбир с помадкой
+				Пломбир с помадкой<br>
 				и клубничный щербет
-			</h2> -->
+			</h2>
 			<div class="background-slider__footer">
 				<form class="background-slider__form" action="#" method="POST">
 					<input class="visually-hidden background-slider__hidden-radio" type="radio" name="slider" id="first-slide" checked>
 					<input class="visually-hidden background-slider__hidden-radio" type="radio" name="slider" id="second-slide">
 					<input class="visually-hidden background-slider__hidden-radio" type="radio" name="slider" id="third-slide">
-					<label class="background-slider__radio" for="first-slide"></label>
+					<label class="background-slider__radio background-slider__radio--current" for="first-slide"></label>
 					<label class="background-slider__radio" for="second-slide"></label>
 					<label class="background-slider__radio" for="third-slide"></label>
 					<input class="button background-slider__button" type="button" name="to-basket" value="Давайте оба!">
