@@ -8,10 +8,25 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 
-	background-image: url("../img/ice_cream_bg_1.png");
 	background-repeat: no-repeat;
-	background-position: 40% 0;
+}
+
+.body__theme_first {
+	background-image: url("../img/ice_cream_bg_1.png");
+	background-position: 70px 0;
 	background-color: #849d8f;
+}
+
+.body__theme_second {
+	background-image: url("../img/ice_cream_bg_2.png");
+	background-position: 60px 0;
+	background-color: #8996a6;
+}
+
+.body__theme_third {
+	background-image: url("../img/ice_cream_bg_3.png");
+	background-position: 63px 0;
+	background-color: #9d8b84;
 }
 
 .visually-hidden {
@@ -401,12 +416,18 @@ body {
 }
 
 .background-slide__header {
+	display: none;
+
 	margin-top: 0;
 	margin-bottom: 30px;
 
 	text-align: center;
 	font-size: 60px;
 	line-height: 60.35px;
+}
+
+.background-slide__header--current {
+	display: block;
 }
 
 .background-slider__form {
