@@ -274,11 +274,13 @@ body {
 
 .search__field:hover {
 	border: 1px solid #c7c6c5;
+	box-shadow: 0 0 0 1px #c7c6c5;
 }
 
 .search__field:focus {
 	border: 1px solid #8fbdec;
 	outline: none;
+	box-shadow: 0 0 0 1px #8fbdec;
 }
 
 .entrance__container {
@@ -321,11 +323,13 @@ body {
 
 .entrance__field:hover {
 	border-color: #c7c6c5;
+	box-shadow: 0 0 0 1px #c7c6c5;
 }
 
 .entrance__field:focus {
 	border-color: #8fbdec;
 	outline: none;
+	box-shadow: 0 0 0 1px #8fbdec;
 }
 
 .entrance-footer__container {
@@ -993,12 +997,14 @@ body {
 .modal-write-us__textfield:hover,
 .modal-write-us__field:hover {
 	border-color: #c7c6c5;
+	box-shadow: 0 0 0 1px #c7c6c5;
 }
 
 .modal-write-us__textfield:focus,
 .modal-write-us__field:focus {
 	border-color: #8fbdec;
 	outline: none;
+	box-shadow: 0 0 0 1px #8fbdec;
 }
 
 .modal-write-us__button {
