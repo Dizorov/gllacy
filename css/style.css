@@ -2,8 +2,8 @@ body {
 	box-sizing: border-box;
 
 	width: 1250px;
-	margin: 0;
-	padding: 0 25px;	
+	margin: 0 auto;
+	padding: 0 25px;
 
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
@@ -13,19 +13,19 @@ body {
 
 .body__theme_first {
 	background-image: url("../img/ice_cream_bg_1.png");
-	background-position: 76px 0;
+	background-position: center 0;
 	background-color: #849d8f;
 }
 
 .body__theme_second {
 	background-image: url("../img/ice_cream_bg_2.png");
-	background-position: 66px 0;
+	background-position: center 0;
 	background-color: #8996a6;
 }
 
 .body__theme_third {
 	background-image: url("../img/ice_cream_bg_3.png");
-	background-position: 69px 0;
+	background-position: center 0;
 	background-color: #9d8b84;
 }
 
@@ -262,7 +262,7 @@ body {
 
 	border-radius: 5px;
 
-	box-shadow: 0 20px 20px 3px rgba(0, 0, 0, 0.4);	
+	box-shadow: 0 20px 20px 3px rgba(0, 0, 0, 0.4);
 }
 
 .user-navigation__search:hover .search__container {
@@ -314,7 +314,7 @@ body {
 
 	border-radius: 5px;
 
-	box-shadow: 0 20px 20px 3px rgba(0, 0, 0, 0.4);	
+	box-shadow: 0 20px 20px 3px rgba(0, 0, 0, 0.4);
 }
 
 .entrance__field {
@@ -729,7 +729,7 @@ body {
 	box-sizing: border-box;
 	width: 550px;
 	padding: 0 20px;
-	
+
 
 	border-radius: 10px;
 
@@ -821,7 +821,7 @@ body {
 .contacts-block__hours {
 	margin: 0;
 	margin-bottom: 30px;
-	
+
 	font-family: "Times New Roman", serif;
 }
 
